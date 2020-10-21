@@ -1,0 +1,45 @@
+.audio-video {
+    background: $my-lightbluet;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.autor {
+    font-size: 30px;
+    font-family: $secondary-font;
+    padding:5px;
+}
+
+.down {
+    margin-top: 20px;
+}
+
+.frases {
+    font-size: 35px;
+    font-family: $secondary-font;
+    letter-spacing: 8px;
+    margin:10px;
+}
+
+#play-pause-button{
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.video-container{
+    height: 80vh;
+    margin:0;
+    object-fit: cover;
+    overflow: hidden;
+    padding:0;
+    width: 100%;
+    z-index: 2;
+}
+
+.video-intro {
+    height: 80vh;
+}
+

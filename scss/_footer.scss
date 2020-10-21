@@ -1,0 +1,22 @@
+.boton-atras {
+    margin-bottom:50px;
+    width: 75px;
+}
+
+footer p{
+   color: white;
+   margin:auto;
+}
+
+.footer {
+   clear:both;
+   height: 50px;
+   margin-top: -150px; /* negative value of footer height */
+   position: relative;
+   padding-top:100px;
+ } 
+
+.contacto{
+   color: $my-darkblue;
+   font-size: 15px;
+}

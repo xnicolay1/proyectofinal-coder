@@ -1,0 +1,67 @@
+.audio-video {
+    background: $my-lightbluet;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.autor {
+    font-size: 30px;
+    font-family: $secondary-font;
+    padding:5px;
+}
+
+.borderstyle {
+    border: black solid 3px;
+    padding:0;
+    margin:0;
+}
+
+.card-title__servicios{
+    font-size:40px;
+    color: white;
+    text-align: center;
+    font-family: $secondary-font;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+.down {
+    margin-top: 20px;
+}
+
+.frases {
+    font-size: 35px;
+    font-family: $secondary-font;
+    letter-spacing: 8px;
+    margin:10px;
+}
+
+.img-fluid {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    text-align:center;
+}
+
+#play-pause-button{
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.video-container{
+    height: 80vh;
+    margin:0;
+    object-fit: cover;
+    overflow: hidden;
+    padding:0;
+    width: 100%;
+    z-index: 2;
+}
+
+.video-intro {
+    height: 80vh;
+}
+

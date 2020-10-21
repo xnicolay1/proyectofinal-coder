@@ -1,0 +1,37 @@
+.bg-lightblue__portada {
+  background-color: $my-lightbluet;
+}
+
+.img-portada {
+  height: auto; 
+  max-width: 100%;
+}
+
+.img-proyecto {
+  height: 500px;
+}
+
+.img-proyecto-mini {
+  height: 300px;
+  width:100%;
+}
+
+#padre {
+  display: inline-block; /* para que solo ocupe el ancho de la imagen */
+  position: relative;    /* para poder posicionar el texto de forma absoluta */
+
+}
+
+.portfolio-portada{
+    bottom: 0;             /* posicionada en la esquina inferior derecha */
+    left: 0;
+    margin-bottom: 50px;
+    position: absolute;    /* posición absolute con respecto al padre */
+    width: 100%;
+}
+
+#padre {
+  display: inline-block; /* para que solo ocupe el ancho de la imagen */
+  position: relative;    /* para poder posicionar el texto de forma absoluta */
+}
+
