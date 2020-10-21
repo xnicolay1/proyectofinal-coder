@@ -13,7 +13,7 @@ textarea, input, select {
     margin-left: auto;
     padding: 5px;
     text-align: center;
-    width: 400px; 
+    width: 80%; 
 }
 
 input[type='checkbox']{
@@ -22,9 +22,12 @@ input[type='checkbox']{
 }
 
 
-
 .my-check-box{
     color: #f8ececf3;
+}
+
+.formulario {
+    margin-top: 200px;
 }
 
 .recibir {
